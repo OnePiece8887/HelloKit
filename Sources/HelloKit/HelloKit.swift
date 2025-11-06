@@ -4,7 +4,7 @@
 
 import HelloKitBinary
 
-func useSDK()  {
+public func useSDK()  {
     let result =  Hello.say()
     print("useSDK方法获取result:",result)
 }
