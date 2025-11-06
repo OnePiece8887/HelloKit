@@ -1,7 +1,7 @@
 import XCTest
-@testable import MyLibrary
+@testable import HelloKit
 
-final class MyLibraryTests: XCTestCase {
+final class HelloKitTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
