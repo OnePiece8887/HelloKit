@@ -1,0 +1,92 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HelloKitBinary",
+    "printedName": "HelloKitBinary",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HelloKitBinary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Hello",
+        "printedName": "Hello",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "say",
+            "printedName": "say()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14HelloKitBinary0A0V3saySSyFZ",
+            "mangledName": "$s14HelloKitBinary0A0V3saySSyFZ",
+            "moduleName": "HelloKitBinary",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Hello",
+                "printedName": "HelloKitBinary.Hello",
+                "usr": "s:14HelloKitBinary0A0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14HelloKitBinary0A0VACycfc",
+            "mangledName": "$s14HelloKitBinary0A0VACycfc",
+            "moduleName": "HelloKitBinary",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14HelloKitBinary0A0V",
+        "mangledName": "$s14HelloKitBinary0A0V",
+        "moduleName": "HelloKitBinary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
