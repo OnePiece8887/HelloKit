@@ -1,6 +1,0 @@
-framework module HelloKitBinary {
-  umbrella header "HelloKitBinary.h"
-  export *
-
-  module * { export * }
-}
