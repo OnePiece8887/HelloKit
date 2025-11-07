@@ -22,7 +22,7 @@ let package = Package(
             dependencies: [.target(name: "HelloKitBinary")]),
         .binaryTarget(
                    name:"HelloKitBinary",
-                   path: "HelloKitBinary.xcframework"
+                   path: "Sources/libs/HelloKitBinary.xcframework"
                ),
         .testTarget(
             name: "HelloKitTests",

@@ -40,25 +40,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Hello",
-                "printedName": "HelloKitBinary.Hello",
-                "usr": "s:14HelloKitBinary0A0V"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14HelloKitBinary0A0VACycfc",
-            "mangledName": "$s14HelloKitBinary0A0VACycfc",
-            "moduleName": "HelloKitBinary",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
